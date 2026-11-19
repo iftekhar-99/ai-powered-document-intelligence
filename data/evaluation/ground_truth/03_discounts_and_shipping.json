@@ -1,0 +1,24 @@
+{
+  "document_name": "03_discounts_and_shipping.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-003",
+      "invoice_date": "2026-11-03",
+      "supplier_name": "Industrial Supply Depot",
+      "customer_name": "Horizon Builders",
+      "currency": "USD",
+      "subtotal": "500.00",
+      "tax": "48.00",
+      "total": "528.00",
+      "line_items_count": 2,
+      "expected_validation_issues": []
+    }
+  ],
+  "special_conditions": [
+    "discounts",
+    "shipping_charges"
+  ]
+}

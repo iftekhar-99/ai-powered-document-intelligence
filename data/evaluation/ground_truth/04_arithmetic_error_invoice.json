@@ -1,0 +1,27 @@
+{
+  "document_name": "04_arithmetic_error_invoice.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-004",
+      "invoice_date": "2026-11-04",
+      "supplier_name": "Quality Printers Ltd.",
+      "customer_name": "Acme Corporation",
+      "currency": "USD",
+      "subtotal": "400.00",
+      "tax": "40.00",
+      "total": "490.00",
+      "expected_validation_issues": [
+        {
+          "issue_type": "calculation_mismatch",
+          "field_name": "total"
+        }
+      ]
+    }
+  ],
+  "special_conditions": [
+    "arithmetic_error_printed_total_wrong"
+  ]
+}

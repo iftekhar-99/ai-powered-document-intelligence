@@ -1,0 +1,22 @@
+{
+  "document_name": "06_ambiguous_dates_invoice.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-006",
+      "invoice_date": null,
+      "supplier_name": "Vintage Tech Antiques",
+      "customer_name": "Heritage Trust",
+      "currency": "USD",
+      "subtotal": "320.00",
+      "tax": "0.00",
+      "total": "320.00",
+      "needs_manual_review": true
+    }
+  ],
+  "special_conditions": [
+    "ambiguous_date_format_03_04_05"
+  ]
+}

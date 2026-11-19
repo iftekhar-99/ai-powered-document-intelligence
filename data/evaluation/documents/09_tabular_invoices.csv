@@ -1,0 +1,14 @@
+TAX INVOICE
+Invoice Number: INV-2026-009
+Invoice Date: 2026-11-09
+Supplier: Global Logistics Express
+Customer: Delta Manufacturing
+Currency: USD
+
+Description,Quantity,UnitPrice,LineTotal
+Pallet Freight Domestic,2,350.00,700.00
+Handling Fee,1,70.00,70.00
+
+Subtotal,770.00
+Tax,77.00
+Total,847.00

@@ -1,0 +1,21 @@
+{
+  "document_name": "09_tabular_invoices.csv",
+  "file_type": "csv",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-009",
+      "invoice_date": "2026-11-09",
+      "supplier_name": "Global Logistics Express",
+      "customer_name": "Delta Manufacturing",
+      "currency": "USD",
+      "subtotal": "770.00",
+      "tax": "77.00",
+      "total": "847.00"
+    }
+  ],
+  "special_conditions": [
+    "tabular_csv"
+  ]
+}

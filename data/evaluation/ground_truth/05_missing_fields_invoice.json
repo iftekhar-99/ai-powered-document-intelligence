@@ -1,0 +1,32 @@
+{
+  "document_name": "05_missing_fields_invoice.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": null,
+      "invoice_date": null,
+      "supplier_name": "Freelance Digital Studio",
+      "customer_name": "Startup Ventures Inc.",
+      "currency": "USD",
+      "subtotal": "850.00",
+      "tax": "0.00",
+      "total": "850.00",
+      "expected_validation_issues": [
+        {
+          "issue_type": "missing_required_field",
+          "field_name": "invoice_number"
+        },
+        {
+          "issue_type": "missing_required_field",
+          "field_name": "invoice_date"
+        }
+      ]
+    }
+  ],
+  "special_conditions": [
+    "missing_invoice_number",
+    "missing_invoice_date"
+  ]
+}

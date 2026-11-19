@@ -1,0 +1,11 @@
+{
+  "document_name": "14_malformed_corrupt.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "FAILED",
+  "expected_invoices_count": 0,
+  "invoices": [],
+  "special_conditions": [
+    "corrupted_file",
+    "unrecoverable_error"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "document_name": "11_duplicate_invoice_doc2.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-DUP-2026-999",
+      "invoice_date": "2026-11-10",
+      "supplier_name": "Omnicron Systems",
+      "customer_name": "Global Enterprises",
+      "currency": "USD",
+      "subtotal": "4500.00",
+      "tax": "500.00",
+      "total": "5000.00",
+      "expected_validation_issues": [
+        {
+          "issue_type": "duplicate_invoice",
+          "field_name": "invoice_number"
+        }
+      ]
+    }
+  ],
+  "special_conditions": [
+    "duplicate_invoice_cross_document"
+  ]
+}

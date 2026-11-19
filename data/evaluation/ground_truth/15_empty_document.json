@@ -1,0 +1,11 @@
+{
+  "document_name": "15_empty_document.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "FAILED",
+  "expected_invoices_count": 0,
+  "invoices": [],
+  "special_conditions": [
+    "empty_blank_document",
+    "zero_chunks"
+  ]
+}

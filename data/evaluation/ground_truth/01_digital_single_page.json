@@ -1,0 +1,38 @@
+{
+  "document_name": "01_digital_single_page.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 1,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-001",
+      "invoice_date": "2026-11-01",
+      "supplier_name": "Nexus Global Solutions Inc.",
+      "customer_name": "Apex Innovations LLC",
+      "currency": "USD",
+      "subtotal": "1250.00",
+      "tax": "125.00",
+      "total": "1375.00",
+      "line_items": [
+        {
+          "description": "Cloud Architecture Consulting",
+          "quantity": "10.00",
+          "unit_price": "100.00",
+          "tax": "10.00",
+          "line_total": "1000.00"
+        },
+        {
+          "description": "Infrastructure Maintenance",
+          "quantity": "1.00",
+          "unit_price": "250.00",
+          "tax": "25.00",
+          "line_total": "250.00"
+        }
+      ],
+      "expected_validation_issues": []
+    }
+  ],
+  "special_conditions": [
+    "standard_digital_single_page"
+  ]
+}

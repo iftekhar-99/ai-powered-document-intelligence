@@ -1,0 +1,32 @@
+{
+  "document_name": "08_multisheet_invoices.xlsx",
+  "file_type": "xlsx",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 2,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-008S",
+      "invoice_date": "2026-11-08",
+      "supplier_name": "Matrix Consulting",
+      "customer_name": "Zenith Corp",
+      "currency": "USD",
+      "subtotal": "3500.00",
+      "tax": "350.00",
+      "total": "3850.00"
+    },
+    {
+      "invoice_number": "INV-2026-008H",
+      "invoice_date": "2026-11-08",
+      "supplier_name": "Matrix Hardware",
+      "customer_name": "Zenith Corp",
+      "currency": "USD",
+      "subtotal": "1800.00",
+      "tax": "180.00",
+      "total": "1980.00"
+    }
+  ],
+  "special_conditions": [
+    "multi_sheet_xlsx",
+    "multiple_invoices_spreadsheet"
+  ]
+}

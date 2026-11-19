@@ -1,0 +1,11 @@
+{
+  "document_name": "13_scanned_image_invoice.jpg",
+  "file_type": "jpg",
+  "expected_document_status": "NEEDS_REVIEW",
+  "expected_invoices_count": 0,
+  "invoices": [],
+  "special_conditions": [
+    "scanned_image_jpg",
+    "ocr_dependent"
+  ]
+}

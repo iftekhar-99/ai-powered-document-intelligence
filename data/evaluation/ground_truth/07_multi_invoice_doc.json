@@ -1,0 +1,31 @@
+{
+  "document_name": "07_multi_invoice_doc.pdf",
+  "file_type": "pdf",
+  "expected_document_status": "COMPLETED",
+  "expected_invoices_count": 2,
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-007A",
+      "invoice_date": "2026-11-07",
+      "supplier_name": "Alpha Services Inc.",
+      "customer_name": "OmniCorp",
+      "currency": "USD",
+      "subtotal": "300.00",
+      "tax": "30.00",
+      "total": "330.00"
+    },
+    {
+      "invoice_number": "INV-2026-007B",
+      "invoice_date": "2026-11-07",
+      "supplier_name": "Beta Supplies LLC",
+      "customer_name": "OmniCorp",
+      "currency": "USD",
+      "subtotal": "450.00",
+      "tax": "45.00",
+      "total": "495.00"
+    }
+  ],
+  "special_conditions": [
+    "multiple_invoices_single_pdf"
+  ]
+}
